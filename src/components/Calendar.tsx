@@ -60,7 +60,7 @@ const Calendar = ({ days, closedDays }: CalendarProps) => {
         Image
       </div>
       {date.justDate ? (
-        <div className="flex flex-wrap items-center justify-center gap-4 p-6">
+        <div className="flex flex-wrap items-center justify-center gap-4 p-6 max-w-xl">
           {times?.map((time, i) => (
             <div
               key={`time-${i}`}
